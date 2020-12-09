@@ -138,30 +138,19 @@ class Designs(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-
-
-
-
-class UserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = ('first_name',)
-
-class PostRareUserSerializer(serializers.ModelSerializer):
+class DesignCrossingUserSerializer(serializers.ModelSerializer):
     """Serializer for RareUser Info from a post"""
-    user = UserSerializer(many=False)
-
     class Meta:
-        model = RareUser
-        fields = ('id', 'bio', 'user')
+        model = CrossingUser
+        fields = ('id', 'user', 'full_name')
 
-class PostSerializer(serializers.ModelSerializer):
+class DesignSerializer(serializers.ModelSerializer):
     """Basic Serializer for a post"""
-    user = PostRareUserSerializer(many=False)
+    user = DesignCrossingUserSerializer(many=False)
 
     class Meta:
-        model = Post
-        fields = ('id', 'title', 'publication_date', 'content',
-                  'user', 'category_id', 'category', 'approved', 
-                  'image_url', 'created_by_current_user')
+        model = Design
+        fields = ('id', 'title', 'design_img', 'link',
+                  'user', 'category_id', 'category', 'public', 
+                  'created_on', 'created_by_current_user')
         depth = 1

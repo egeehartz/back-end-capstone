@@ -14,3 +14,8 @@ class CrossingUser(models.Model):
     @is_current_user.setter
     def is_current_user(self,value):
         self.__is_current_user = value
+
+        """This makes the first and last name properties accessible directly from the RareUser as the full_name property"""
+    @property
+    def full_name(self):
+        return (f'{self.user.first_name} {self.user.last_name}')

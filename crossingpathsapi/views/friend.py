@@ -15,13 +15,19 @@ class Follows(ViewSet):
     def list(self, request):
 
         followings = Follower.objects.all()
-        user_id = self.request.query_params.get('follower_id', None)
 
-        follower = CrossingUser.objects.get(user=request.auth.user)
+        #set variables
+        follower_user_id = self.request.query_params.get('follower_id', None)
+        friend_user_id = self.request.query_params.get('friend_id', None)
 
-        #get by any user id
-        if user_id is not None:
-            followings = followings.filter(follower_id=user_id)
+
+        #get friends by any follower
+        if follower_user_id is not None:
+            followings = followings.filter(follower_id=follower_user_id)
+        
+        #get followers by any friend
+        if friend_user_id is not None:
+            followings = followings.filter(friend_id=friend_user_id)
 
         serializer = FollowerSerializer(
             followings, many=True, context={'request': request})
@@ -36,8 +42,7 @@ class Follows(ViewSet):
         new_following.follower = user
 
         #friend they want to follow
-        new_following.author = CrossingUser.objects.get(pk=request.data["authorId"])
-        new_following.created_on = date.today()
+        new_following.friend = CrossingUser.objects.get(pk=request.data["friendId"])
 
         new_following.save()
 

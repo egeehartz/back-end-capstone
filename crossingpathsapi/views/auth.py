@@ -64,14 +64,14 @@ def register_user(request):
     )
 
     # Now save the extra info in the levelupapi_gamer table
-    format, imgstr = req_body["profile_image"].split(';base64,')
+    format, imgstr = req_body["profile_img"].split(';base64,')
     ext = format.split('/')[-1]
     data = ContentFile(base64.b64decode(imgstr), name=f'{req_body["email"]}-{uuid.uuid4()}.{ext}')
 
     #rare_user has a property `user` which makes all `user` properties accessible through the rare_user
     crossing_user = CrossingUser.objects.create(
         user=new_user,
-        profile_image_url = data
+        profile_img = data
     )
 
     # Commit the user to the database by saving it

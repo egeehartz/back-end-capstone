@@ -15,11 +15,13 @@ class Follows(ViewSet):
     def list(self, request):
 
         followings = Follower.objects.all()
+        user_id = self.request.query_params.get('follower_id', None)
 
         follower = CrossingUser.objects.get(user=request.auth.user)
 
-        if follower is not None:
-            followings = followings.filter(follower_id=follower)
+        #get by any user id
+        if user_id is not None:
+            followings = followings.filter(follower_id=user_id)
 
         serializer = FollowerSerializer(
             followings, many=True, context={'request': request})
@@ -61,11 +63,17 @@ class Follows(ViewSet):
 
 
 
-
+class FollowerCrossingUserSerializer(serializers.ModelSerializer):
+    """Serializer for RareUser Info from a post"""
+    class Meta:
+        model = CrossingUser
+        fields = ('id', 'full_name', 'username', 'profile_img')
 
 class FollowerSerializer(serializers.ModelSerializer):
+    follower = FollowerCrossingUserSerializer(many=False)
+    friend = FollowerCrossingUserSerializer(many=False)
 
     class Meta:
         model = Follower
         fields = ('id', 'friend', 'follower')
-        # depth = 1
+        depth = 1

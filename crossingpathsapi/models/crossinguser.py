@@ -19,3 +19,8 @@ class CrossingUser(models.Model):
     @property
     def full_name(self):
         return (f'{self.user.first_name} {self.user.last_name}')
+
+        """This makes the username property accessible directly from the RareUser"""
+    @property
+    def username(self):
+        return self.user.username

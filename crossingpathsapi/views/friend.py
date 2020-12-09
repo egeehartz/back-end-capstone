@@ -10,7 +10,7 @@ from crossingpathsapi.models import Follower, CrossingUser
 from datetime import date
 
 
-class Subscriptions(ViewSet):
+class Follows(ViewSet):
 
     def list(self, request):
 

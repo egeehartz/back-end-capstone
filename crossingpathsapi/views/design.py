@@ -142,7 +142,7 @@ class DesignCrossingUserSerializer(serializers.ModelSerializer):
     """Serializer for RareUser Info from a post"""
     class Meta:
         model = CrossingUser
-        fields = ('id', 'user', 'full_name')
+        fields = ('id', 'full_name')
 
 class DesignSerializer(serializers.ModelSerializer):
     """Basic Serializer for a post"""

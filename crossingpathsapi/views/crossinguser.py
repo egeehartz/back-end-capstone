@@ -7,7 +7,7 @@ from rest_framework import serializers, status
 from rest_framework.response import Response
 from crossingpathsapi.models import CrossingUser
 
-class CrossingsUsers(ViewSet):
+class CrossingUsers(ViewSet):
     """CrossingUser Class"""
 
     def list(self, request):
@@ -50,4 +50,4 @@ class CrossingUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CrossingUser
-        fields = ('id', 'user', 'profile_img' 'is_current_user')
+        fields = ('id', 'user', 'profile_img', 'is_current_user')

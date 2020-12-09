@@ -1,0 +1,34 @@
+[
+    {
+        "model": "crossingpathsapi.CrossingUser",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "profile_img": ""
+        }
+    },
+    {
+        "model": "crossingpathsapi.CrossingUser",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "profile_img": ""
+        }
+    },
+    {
+        "model": "crossingpathsapi.CrossingUser",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "profile_img": ""
+        }
+    },
+    {
+        "model": "crossingpathsapi.CrossingUser",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "profile_img": ""
+        }
+    }
+]

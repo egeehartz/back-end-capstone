@@ -1,0 +1,25 @@
+  
+[
+    {
+        "model": "crossingpathsapi.category",
+        "pk": 1,
+        "fields": {
+            "label": "To Do"
+        }
+    },
+    {
+        "model": "crossingpathsapi.category",
+        "pk": 2,
+        "fields": {
+            "label": "In Progress"
+        }
+    },
+    {
+        "model": "crossingpathsapi.category",
+        "pk": 3,
+        "fields": {
+            "label": "Completed"
+        }
+    }
+    
+]

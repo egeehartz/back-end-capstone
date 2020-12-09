@@ -1,0 +1,11 @@
+[
+    {
+        "model": "crossingpathsapi.follower",
+        "pk": 1,
+        "fields": {
+            "follower": 1,
+            "friend": 2
+        }
+    }
+
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "model": "crossingpathsapi.design",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "title": "Home Sweet Home",
+            "design_img": "",
+            "link": "",
+            "category": 1,
+            "public": true,
+            "created_on": "2020-08-18"
+        }
+    },
+    {
+        "model": "crossingpathsapi.design",
+        "pk": 2,
+        "fields":{
+            "user": 1,
+            "title": "Captain Marvel",
+            "design_img": "",
+            "link": "",
+            "category": 1,
+            "public": true,
+            "created_on": "2020-08-18"
+        }
+    },
+    {
+        "model": "crossingpathsapi.design",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "title": "Flowers in a Jar",
+            "design_img": "",
+            "link": "",
+            "category": 1,
+            "public": true,
+            "created_on": "2020-08-18"
+        }
+    },
+    {
+        "model": "crossingpathsapi.design",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "title": "Bicycle",
+            "design_img": "",
+            "link": "",
+            "category": 1,
+            "public": true,
+            "created_on": "2020-08-18"
+        }
+    }
+]

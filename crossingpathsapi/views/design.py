@@ -2,6 +2,7 @@
 import json
 import uuid
 import base64
+from datetime import date
 from django.core.files.base import ContentFile
 from datetime import date
 from django.contrib.auth.models import User
@@ -78,16 +79,16 @@ class Designs(ViewSet):
         design = Design()
 
         req_body = json.loads(request.body.decode())
-        format, imgstr = req_body["profile_img"].split(';base64,')
+        format, imgstr = req_body["designImg"].split(';base64,')
         ext = format.split('/')[-1]
-        data = ContentFile(base64.b64decode(imgstr), name=f'{req_body["email"]}-{uuid.uuid4()}.{ext}')
+        data = ContentFile(base64.b64decode(imgstr), name=f'{user.email}-{uuid.uuid4()}.{ext}')
 
         try:
             design.design_img = data
             design.link = request.data["link"]
             design.title = request.data["title"]
             design.public = request.data["public"]
-            design.created_on = request.data["createdOn"]
+            design.created_on = str(date.today())
         
         except KeyError as ex:
             return Response({'message': 'Incorrect key was sent in request'}, status=status.HTTP_400_BAD_REQUEST)

@@ -1,4 +1,9 @@
 """View module for handling requests about posts"""
+import json
+import uuid
+import base64
+from datetime import date
+from django.core.files.base import ContentFile
 from datetime import date
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
@@ -73,12 +78,17 @@ class Designs(ViewSet):
         user = request.auth.user
         design = Design()
 
+        req_body = json.loads(request.body.decode())
+        format, imgstr = req_body["designImg"].split(';base64,')
+        ext = format.split('/')[-1]
+        data = ContentFile(base64.b64decode(imgstr), name=f'{user.email}-{uuid.uuid4()}.{ext}')
+
         try:
-            design.design_img = request.data["designImage"]
+            design.design_img = data
             design.link = request.data["link"]
             design.title = request.data["title"]
             design.public = request.data["public"]
-            design.created_on = request.data["createdOn"]
+            design.created_on = str(date.today())
         
         except KeyError as ex:
             return Response({'message': 'Incorrect key was sent in request'}, status=status.HTTP_400_BAD_REQUEST)
@@ -86,7 +96,8 @@ class Designs(ViewSet):
         design.user_id = user.id
 
         try:
-            category = Category.objects.get(pk=request.data["categoryId"])
+            category_id = int(request.data["categoryId"])
+            category = Category.objects.get(pk=category_id)
             design.category_id = category.id
         except Category.DoesNotExist as ex:
             return Response({'message': 'Design type provided is not valid'}, status=status.HTTP_400_BAD_REQUEST)

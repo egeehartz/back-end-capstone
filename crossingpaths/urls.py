@@ -19,10 +19,11 @@ from django.conf.urls import include
 from django.urls import path
 from rest_framework import routers
 from crossingpathsapi.views import register_user, login_user
-from crossingpathsapi.views import Categories, CrossingUsers, Designs, Follows
+from crossingpathsapi.views import Categories, CrossingUsers, Designs, Follows, CurrentUser
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'categories', Categories, 'category')
+router.register(r'currentuser', CurrentUser, 'crossinguser')
 router.register(r'users', CrossingUsers, 'crossinguser')
 router.register(r'designs', Designs, 'design')
 router.register(r'follows', Follows, 'follow')

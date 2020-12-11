@@ -1,4 +1,5 @@
 """View module for handling requests about posts"""
+from crossingpathsapi.models.friend import Follower
 import json
 import uuid
 import base64
@@ -147,6 +148,39 @@ class Designs(ViewSet):
 
         except Exception as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+
+    @action(methods=['get'], detail=False)
+    def explore(self, request):
+        current_user = CrossingUser.objects.get(user=request.auth.user)
+
+        if request.method == "GET":
+            try:
+                public_designs = Design.objects.filter(public=True)
+                private_designs = Design.objects.filter(public=False)
+                friends = Follower.objects.filter(follower_id=current_user.id)
+
+                total_designs = []
+
+                #designs that are public and not created by current user
+                for design in public_designs:
+                    if design.user != current_user:
+                        total_designs.append(design)
+
+                #designs that are private but created by friends
+                for design in private_designs:
+                    for friend in friends:
+                        if design.user_id == friend.friend.id:
+                            total_designs.append(design)
+
+                serializer = DesignSerializer(
+                total_designs, many=True, context={'request': request})
+
+            except Design.DoesNotExist as ex:
+                return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+            return Response(serializer.data)
 
 
 class DesignCrossingUserSerializer(serializers.ModelSerializer):

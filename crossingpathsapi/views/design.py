@@ -5,7 +5,6 @@ import uuid
 import base64
 from datetime import date
 from django.core.files.base import ContentFile
-from datetime import date
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.http import HttpResponseServerError

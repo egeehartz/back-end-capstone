@@ -46,10 +46,11 @@ class CrossingUsers(ViewSet):
             other_users = CrossingUser.objects.exclude(user=request.auth.user)
             friends = Follower.objects.filter(follower_id=request.auth.user.id)
 
+            final_list = []
             for user in other_users:
                 for friend in friends:
                     if friend.friend.id == user.id: 
-                       final_list = other_users.exclude(user)
+                         other_users.exclude(user)
 
 
             serializer = CrossingUserSerializer(final_list, many=True, context={'request': request})

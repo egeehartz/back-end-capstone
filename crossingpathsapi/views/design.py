@@ -44,6 +44,12 @@ class Designs(ViewSet):
         if category_id is not None:
             designs = designs.filter(category_id=category_id)
 
+        #filter by both /designs?category_id=1&user_id=2
+        if category_id and user_id is not None:
+            designs = designs.filter(user_id=user_id)
+            designs = designs.filter(category_id=category_id)
+
+
         serializer = DesignSerializer(
             designs, many=True, context={'request': request})
         return Response(serializer.data)
@@ -182,11 +188,12 @@ class Designs(ViewSet):
             return Response(serializer.data)
 
 
+
 class DesignCrossingUserSerializer(serializers.ModelSerializer):
     """Serializer for RareUser Info from a post"""
     class Meta:
         model = CrossingUser
-        fields = ('id', 'full_name')
+        fields = ('id', 'full_name', 'profile_img')
 
 class DesignSerializer(serializers.ModelSerializer):
     """Basic Serializer for a post"""

@@ -43,17 +43,27 @@ class CrossingUsers(ViewSet):
     def people_to_follow(self, request):
 
         if request.method == "GET":
+
+            #users that are not me
             other_users = CrossingUser.objects.exclude(user=request.auth.user)
+
+            #friends I am currently not following
             friends = Follower.objects.filter(follower_id=request.auth.user.id)
 
-            final_list = []
+            friend_ids = []
+            total_list = []
+
+            for friend in friends:
+                friend_ids.append(friend.friend.id)
+
             for user in other_users:
-                for friend in friends:
-                    if friend.friend.id == user.id: 
-                         other_users.exclude(user)
+                if user.id in friend_ids:
+                    pass
+                else:
+                     total_list.append(user)
 
 
-            serializer = CrossingUserSerializer(final_list, many=True, context={'request': request})
+            serializer = CrossingUserSerializer(total_list, many=True, context={'request': request})
             return Response(serializer.data)
 
     

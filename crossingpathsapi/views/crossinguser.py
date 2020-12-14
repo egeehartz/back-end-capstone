@@ -1,11 +1,12 @@
 """Crossing Paths User Views Module"""
 from django.contrib.auth.models import User
+from rest_framework.decorators import action
 from django.core.exceptions import ValidationError
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework import serializers, status
 from rest_framework.response import Response
-from crossingpathsapi.models import CrossingUser
+from crossingpathsapi.models import CrossingUser, Follower
 
 class CrossingUsers(ViewSet):
     """CrossingUser Class"""
@@ -37,6 +38,34 @@ class CrossingUsers(ViewSet):
             return Response(serializer.data)
         except Exception as ex:
             return HttpResponseServerError(ex)
+
+    @action(methods=['get'], detail=False)
+    def people_to_follow(self, request):
+
+        if request.method == "GET":
+
+            #users that are not me
+            other_users = CrossingUser.objects.exclude(user=request.auth.user)
+
+            #friends I am currently not following
+            friends = Follower.objects.filter(follower_id=request.auth.user.id)
+
+            friend_ids = []
+            total_list = []
+
+            for friend in friends:
+                friend_ids.append(friend.friend.id)
+
+            for user in other_users:
+                if user.id in friend_ids:
+                    pass
+                else:
+                     total_list.append(user)
+
+
+            serializer = CrossingUserSerializer(total_list, many=True, context={'request': request})
+            return Response(serializer.data)
+
     
 
 class UserSerializer(serializers.ModelSerializer):

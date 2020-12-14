@@ -5,7 +5,6 @@ import uuid
 import base64
 from datetime import date
 from django.core.files.base import ContentFile
-from datetime import date
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.http import HttpResponseServerError
@@ -44,6 +43,12 @@ class Designs(ViewSet):
         #filter by category /designs?category_id=1
         if category_id is not None:
             designs = designs.filter(category_id=category_id)
+
+        #filter by both /designs?category_id=1&user_id=2
+        if category_id and user_id is not None:
+            designs = designs.filter(user_id=user_id)
+            designs = designs.filter(category_id=category_id)
+
 
         serializer = DesignSerializer(
             designs, many=True, context={'request': request})
@@ -183,11 +188,12 @@ class Designs(ViewSet):
             return Response(serializer.data)
 
 
+
 class DesignCrossingUserSerializer(serializers.ModelSerializer):
     """Serializer for RareUser Info from a post"""
     class Meta:
         model = CrossingUser
-        fields = ('id', 'full_name')
+        fields = ('id', 'full_name', 'profile_img')
 
 class DesignSerializer(serializers.ModelSerializer):
     """Basic Serializer for a post"""

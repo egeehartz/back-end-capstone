@@ -81,13 +81,13 @@ class Designs(ViewSet):
         Returns:
             Response -- JSON serialized post instance
         """
-        user = request.auth.user
+        user = CrossingUser.objects.get(user=request.auth.user)
         design = Design()
 
         req_body = json.loads(request.body.decode())
-        format, imgstr = req_body["designImg"].split(';base64,')
+        format, imgstr = req_body["design_img"].split(';base64,')
         ext = format.split('/')[-1]
-        data = ContentFile(base64.b64decode(imgstr), name=f'{user.email}-{uuid.uuid4()}.{ext}')
+        data = ContentFile(base64.b64decode(imgstr), name=f'{user.id}-{uuid.uuid4()}.{ext}')
 
         try:
             design.design_img = data
@@ -99,12 +99,12 @@ class Designs(ViewSet):
         except KeyError as ex:
             return Response({'message': 'Incorrect key was sent in request'}, status=status.HTTP_400_BAD_REQUEST)
 
-        design.user_id = user.id
+        design.user = user
 
         try:
-            category_id = int(request.data["categoryId"])
+            category_id = int(request.data["category_id"])
             category = Category.objects.get(pk=category_id)
-            design.category_id = category.id
+            design.category = category
         except Category.DoesNotExist as ex:
             return Response({'message': 'Design type provided is not valid'}, status=status.HTTP_400_BAD_REQUEST)
 

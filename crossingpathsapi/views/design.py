@@ -127,24 +127,21 @@ class Designs(ViewSet):
         picture = req_body["design_img"]
 
         design = Design.objects.get(pk=pk)
-        
+
         if 'http' not in picture:
             format, imgstr = req_body["design_img"].split(';base64,')
             ext = format.split('/')[-1]
             data = ContentFile(base64.b64decode(imgstr), name=f'{crossinguser.id}-{uuid.uuid4()}.{ext}')
             design.design_img = data
-            design.link = request.data["link"]
-            design.title = request.data["title"]
-            design.public = request.data["public"]
-            design.created_on = str(date.today())
-            design.user = crossinguser
         
         else:
-            design.link = request.data["link"]
-            design.title = request.data["title"]
-            design.public = request.data["public"]
-            design.created_on = str(date.today())
-            design.user = crossinguser
+            pass
+
+        design.created_on = str(date.today())
+        design.user = crossinguser
+        design.link = request.data["link"]
+        design.title = request.data["title"]
+        design.public = request.data["public"]
 
         category = Category.objects.get(pk=request.data["category_id"])
         design.category = category

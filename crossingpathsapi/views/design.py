@@ -122,12 +122,17 @@ class Designs(ViewSet):
        
         crossinguser = CrossingUser.objects.get(user=request.auth.user)
 
+        req_body = json.loads(request.body.decode())
+        format, imgstr = req_body["designImg"].split(';base64,')
+        ext = format.split('/')[-1]
+        data = ContentFile(base64.b64decode(imgstr), name=f'{crossinguser.id}-{uuid.uuid4()}.{ext}')
+
         design = Design.objects.get(pk=pk)
-        design.design_img = request.data["designImage"]
+        design.design_img = data
         design.link = request.data["link"]
         design.title = request.data["title"]
         design.public = request.data["public"]
-        design.created_on = request.data["createdOn"]
+        design.created_on = str(date.today())
         design.user = crossinguser
 
         category = Category.objects.get(pk=request.data["categoryId"])

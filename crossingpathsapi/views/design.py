@@ -81,13 +81,13 @@ class Designs(ViewSet):
         Returns:
             Response -- JSON serialized post instance
         """
-        user = request.auth.user
+        user = CrossingUser.objects.get(user=request.auth.user)
         design = Design()
 
         req_body = json.loads(request.body.decode())
-        format, imgstr = req_body["designImg"].split(';base64,')
+        format, imgstr = req_body["design_img"].split(';base64,')
         ext = format.split('/')[-1]
-        data = ContentFile(base64.b64decode(imgstr), name=f'{user.email}-{uuid.uuid4()}.{ext}')
+        data = ContentFile(base64.b64decode(imgstr), name=f'{user.id}-{uuid.uuid4()}.{ext}')
 
         try:
             design.design_img = data
@@ -99,12 +99,12 @@ class Designs(ViewSet):
         except KeyError as ex:
             return Response({'message': 'Incorrect key was sent in request'}, status=status.HTTP_400_BAD_REQUEST)
 
-        design.user_id = user.id
+        design.user = user
 
         try:
-            category_id = int(request.data["categoryId"])
+            category_id = int(request.data["category_id"])
             category = Category.objects.get(pk=category_id)
-            design.category_id = category.id
+            design.category = category
         except Category.DoesNotExist as ex:
             return Response({'message': 'Design type provided is not valid'}, status=status.HTTP_400_BAD_REQUEST)
 
@@ -122,15 +122,28 @@ class Designs(ViewSet):
        
         crossinguser = CrossingUser.objects.get(user=request.auth.user)
 
+
+        req_body = json.loads(request.body.decode())
+        picture = req_body["design_img"]
+
         design = Design.objects.get(pk=pk)
-        design.design_img = request.data["designImage"]
+
+        if 'http' not in picture:
+            format, imgstr = req_body["design_img"].split(';base64,')
+            ext = format.split('/')[-1]
+            data = ContentFile(base64.b64decode(imgstr), name=f'{crossinguser.id}-{uuid.uuid4()}.{ext}')
+            design.design_img = data
+        
+        else:
+            pass
+
+        design.created_on = str(date.today())
+        design.user = crossinguser
         design.link = request.data["link"]
         design.title = request.data["title"]
         design.public = request.data["public"]
-        design.created_on = request.data["createdOn"]
-        design.user = crossinguser
 
-        category = Category.objects.get(pk=request.data["categoryId"])
+        category = Category.objects.get(pk=request.data["category_id"])
         design.category = category
         design.save()
 
@@ -186,6 +199,15 @@ class Designs(ViewSet):
                 return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
             return Response(serializer.data)
+
+
+    @action(methods=['patch'], detail=True)
+    def change_title(self, request, pk=None):
+        design = Design.objects.get(pk=pk)
+
+        design.title = request.data["title"]
+        design.save()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
 
 

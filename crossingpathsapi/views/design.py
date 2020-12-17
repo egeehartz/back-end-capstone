@@ -196,9 +196,17 @@ class Designs(ViewSet):
 
                 #designs that are private but created by friends
                 for design in private_designs:
+                    design.created_by_friend = None
+
                     for friend in friends:
+                        
                         if design.user_id == friend.friend.id:
+                            design.created_by_friend = True
                             total_designs.append(design)
+                        
+
+                
+
 
                 serializer = DesignSerializer(
                 total_designs, many=True, context={'request': request})

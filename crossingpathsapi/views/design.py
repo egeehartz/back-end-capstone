@@ -191,8 +191,14 @@ class Designs(ViewSet):
 
                 #designs that are public and not created by current user
                 for design in public_designs:
+                    design.created_by_friend = False
                     if design.user != current_user:
                         total_designs.append(design)
+
+                    for friend in friends:
+                        
+                        if design.user_id == friend.friend.id:
+                            design.created_by_friend = True
 
                 #designs that are private but created by friends
                 for design in private_designs:
@@ -231,5 +237,5 @@ class DesignSerializer(serializers.ModelSerializer):
         model = Design
         fields = ('id', 'title', 'design_img', 'link',
                   'user', 'category_id', 'category', 'public', 
-                  'created_on', 'created_by_current_user')
+                  'created_on', 'created_by_current_user', 'created_by_friend')
         depth = 1

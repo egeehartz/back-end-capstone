@@ -54,8 +54,11 @@ class Follows(ViewSet):
         Returns:
             Response -- 200, 404, or 500 status code
         """
+
+        friend = CrossingUser.objects.get(pk=pk)
+
         try:
-            following = Follower.objects.get(pk=pk)
+            following = Follower.objects.get(friend=friend,follower=request.auth.user.id)
             following.delete()
 
             return Response({}, status=status.HTTP_204_NO_CONTENT)

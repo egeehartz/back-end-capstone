@@ -209,16 +209,6 @@ class Designs(ViewSet):
             return Response(serializer.data)
 
 
-    @action(methods=['patch'], detail=True)
-    def change_title(self, request, pk=None):
-        design = Design.objects.get(pk=pk)
-
-        design.title = request.data["title"]
-        design.save()
-        return Response({}, status=status.HTTP_204_NO_CONTENT)
-
-
-
 class DesignCrossingUserSerializer(serializers.ModelSerializer):
     """Serializer for RareUser Info from a post"""
     class Meta:

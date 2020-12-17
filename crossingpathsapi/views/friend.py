@@ -54,6 +54,8 @@ class Follows(ViewSet):
         Returns:
             Response -- 200, 404, or 500 status code
         """
+
+
         try:
             following = Follower.objects.get(pk=pk)
             following.delete()

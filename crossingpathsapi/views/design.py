@@ -85,12 +85,20 @@ class Designs(ViewSet):
         design = Design()
 
         req_body = json.loads(request.body.decode())
-        format, imgstr = req_body["design_img"].split(';base64,')
-        ext = format.split('/')[-1]
-        data = ContentFile(base64.b64decode(imgstr), name=f'{user.id}-{uuid.uuid4()}.{ext}')
+        picture = req_body["design_img"]
+
+        if 'http' not in picture:
+            format, imgstr = req_body["design_img"].split(';base64,')
+            ext = format.split('/')[-1]
+            data = ContentFile(base64.b64decode(imgstr), name=f'{user.id}-{uuid.uuid4()}.{ext}')
+            design.design_img = data
+        else:
+            design_img_link = request.data["design_img"]
+            img_name = design_img_link.split('/')[-1]
+            design.design_img = f'images/{img_name}'
+
 
         try:
-            design.design_img = data
             design.link = request.data["link"]
             design.title = request.data["title"]
             design.public = request.data["public"]

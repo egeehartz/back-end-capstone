@@ -1,6 +1,10 @@
 """Crossing Paths User Views Module"""
+import json
+import uuid
+import base64
 from django.contrib.auth.models import User
 from rest_framework.decorators import action
+from django.core.files.base import ContentFile
 from django.core.exceptions import ValidationError
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
@@ -65,6 +69,20 @@ class CrossingUsers(ViewSet):
 
             serializer = CrossingUserSerializer(total_list, many=True, context={'request': request})
             return Response(serializer.data)
+
+    @action(methods=['patch'], detail=True)
+    def change_profile_picture(self, request, pk=None):
+        user = CrossingUser.objects.get(pk=pk)
+
+        req_body = json.loads(request.body.decode())
+        format, imgstr = req_body["profile_img"].split(';base64,')
+        ext = format.split('/')[-1]
+        data = ContentFile(base64.b64decode(imgstr), name=f'{user.id}-{uuid.uuid4()}.{ext}')
+
+
+        user.profile_img = data
+        user.save()
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
 
     
 

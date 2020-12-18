@@ -19,3 +19,11 @@ class Design(models.Model):
     @created_by_current_user.setter
     def created_by_current_user(self, value):
         self.__created_by_current_user = value
+
+    @property
+    def created_by_friend(self):
+        return self.__created_by_friend
+
+    @created_by_friend.setter
+    def created_by_friend(self, value):
+        self.__created_by_friend = value

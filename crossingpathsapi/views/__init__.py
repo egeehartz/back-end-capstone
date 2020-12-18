@@ -4,3 +4,4 @@ from .crossinguser import CrossingUsers
 from .currentuser import CurrentUser
 from .design import Designs
 from .friend import Follows
+from .flosscolor import FlossColors

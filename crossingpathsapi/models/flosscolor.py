@@ -4,7 +4,7 @@ from django.db import models
 
 class FlossColor(models.Model):
     """Floss database model"""
-    floss_number = models.IntegerField()
+    floss_number = models.CharField(max_length=75)
     description = models.CharField(max_length=75)
     red = models.IntegerField()
     blue = models.IntegerField()

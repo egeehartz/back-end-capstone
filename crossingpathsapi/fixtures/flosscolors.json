@@ -1,6 +1,6 @@
 [
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 455,
         "fields": {
             "floss_number": 3713,
@@ -13,7 +13,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 456,
         "fields": {
             "floss_number": 761,
@@ -26,7 +26,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 457,
         "fields": {
             "floss_number": 760,
@@ -39,7 +39,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 4,
         "fields": {
             "floss_number": 3712,
@@ -52,7 +52,7 @@
         }
     },
     { 
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 5,
         "fields": {
             "floss_number": 3328,
@@ -65,7 +65,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 6,
         "fields": {
             "floss_number": 347,
@@ -78,7 +78,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 7,
         "fields": {
             "floss_number": 353,
@@ -91,7 +91,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 8,
         "fields": {
             "floss_number": 352,
@@ -104,7 +104,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 9,
         "fields": {
             "floss_number": 351,
@@ -117,7 +117,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 10,
         "fields": {
             "floss_number": 350,
@@ -130,7 +130,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 11,
         "fields": {
             "floss_number": 349,
@@ -143,7 +143,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 12,
         "fields": {
             "floss_number": 817,
@@ -156,7 +156,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 13,
         "fields": {
             "floss_number": 3708,
@@ -169,7 +169,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 14,
         "fields": {
             "floss_number": 3706,
@@ -182,7 +182,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 15,
         "fields": {
             "floss_number": 3705,
@@ -195,7 +195,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 16,
         "fields": {
             "floss_number": 3801,
@@ -208,7 +208,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 17,
         "fields": {
             "floss_number": 666,
@@ -221,7 +221,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 18,
         "fields": {
             "floss_number": 321,
@@ -234,7 +234,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 19,
         "fields": {
             "floss_number": 304,
@@ -247,7 +247,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 20,
         "fields": {
             "floss_number": 498,
@@ -260,7 +260,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 21,
         "fields": {
             "floss_number": 816,
@@ -273,7 +273,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 22,
         "fields": {
             "floss_number": 815,
@@ -286,7 +286,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 23,
         "fields": {
             "floss_number": 814,
@@ -299,7 +299,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 24,
         "fields": {
             "floss_number": 894,
@@ -312,7 +312,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 25,
         "fields": {
             "floss_number": 893,
@@ -325,7 +325,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 26,
         "fields": {
             "floss_number": 892,
@@ -338,7 +338,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 27,
         "fields": {
             "floss_number": 891,
@@ -351,7 +351,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 28,
         "fields": {
             "floss_number": 818,
@@ -364,7 +364,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 29,
         "fields": {
             "floss_number": 957,
@@ -377,7 +377,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 30,
         "fields": {
             "floss_number": 956,
@@ -390,7 +390,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 31,
         "fields": {
             "floss_number": 309,
@@ -403,7 +403,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 32,
         "fields": {
             "floss_number": 963,
@@ -416,7 +416,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 33,
         "fields": {
             "floss_number": 3716,
@@ -429,7 +429,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 34,
         "fields": {
             "floss_number": 962,
@@ -442,7 +442,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 35,
         "fields": {
             "floss_number": 961,
@@ -455,7 +455,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 36,
         "fields": {
             "floss_number": 3833,
@@ -468,7 +468,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 37,
         "fields": {
             "floss_number": 3832,
@@ -481,7 +481,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 38,
         "fields": {
             "floss_number": 3831,
@@ -494,7 +494,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 39,
         "fields": {
             "floss_number": 777,
@@ -507,7 +507,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 40,
         "fields": {
             "floss_number": 819,
@@ -520,7 +520,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 41,
         "fields": {
             "floss_number": 3326,
@@ -533,7 +533,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 42,
         "fields": {
             "floss_number": 776,
@@ -546,7 +546,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 43,
         "fields": {
             "floss_number": 899,
@@ -559,7 +559,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 44,
         "fields": {
             "floss_number": 335,
@@ -572,7 +572,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 45,
         "fields": {
             "floss_number": 326,
@@ -585,7 +585,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 46,
         "fields": {
             "floss_number": 151,
@@ -598,7 +598,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 47,
         "fields": {
             "floss_number": 3354,
@@ -611,7 +611,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 48,
         "fields": {
             "floss_number": 3733,
@@ -624,7 +624,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 49,
         "fields": {
             "floss_number": 3731,
@@ -637,7 +637,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 50,
         "fields": {
             "floss_number": 3350,
@@ -650,7 +650,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 51,
         "fields": {
             "floss_number": 150,
@@ -663,7 +663,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 52,
         "fields": {
             "floss_number": 3689,
@@ -676,7 +676,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 53,
         "fields": {
             "floss_number": 3688,
@@ -689,7 +689,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 54,
         "fields": {
             "floss_number": 3687,
@@ -702,7 +702,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 55,
         "fields": {
             "floss_number": 3803,
@@ -715,7 +715,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 56,
         "fields": {
             "floss_number": 3685,
@@ -728,7 +728,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 57,
         "fields": {
             "floss_number": 605,
@@ -741,7 +741,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 58,
         "fields": {
             "floss_number": 604,
@@ -754,7 +754,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 59,
         "fields": {
             "floss_number": 603,
@@ -767,7 +767,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 60,
         "fields": {
             "floss_number": 602,
@@ -780,7 +780,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 61,
         "fields": {
             "floss_number": 601,
@@ -793,7 +793,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 62,
         "fields": {
             "floss_number": 600,
@@ -806,7 +806,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 63,
         "fields": {
             "floss_number": 3806,
@@ -819,7 +819,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 64,
         "fields": {
             "floss_number": 3805,
@@ -832,7 +832,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 65,
         "fields": {
             "floss_number": 3804,
@@ -845,7 +845,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 66,
         "fields": {
             "floss_number": 3609,
@@ -858,7 +858,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 67,
         "fields": {
             "floss_number": 3608,
@@ -871,7 +871,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 68,
         "fields": {
             "floss_number": 3607,
@@ -884,7 +884,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 69,
         "fields": {
             "floss_number": 718,
@@ -897,7 +897,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 70,
         "fields": {
             "floss_number": 917,
@@ -910,7 +910,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 71,
         "fields": {
             "floss_number": 915,
@@ -923,7 +923,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 72,
         "fields": {
             "floss_number": 225,
@@ -936,7 +936,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 73,
         "fields": {
             "floss_number": 224,
@@ -949,7 +949,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 74,
         "fields": {
             "floss_number": 152,
@@ -962,7 +962,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 75,
         "fields": {
             "floss_number": 223,
@@ -975,7 +975,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 76,
         "fields": {
             "floss_number": 3722,
@@ -988,7 +988,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 77,
         "fields": {
             "floss_number": 3721,
@@ -1001,7 +1001,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 78,
         "fields": {
             "floss_number": 221,
@@ -1014,7 +1014,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 79,
         "fields": {
             "floss_number": 778,
@@ -1027,7 +1027,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 80,
         "fields": {
             "floss_number": 3727,
@@ -1040,7 +1040,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 81,
         "fields": {
             "floss_number": 316,
@@ -1053,7 +1053,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 82,
         "fields": {
             "floss_number": 3726,
@@ -1066,7 +1066,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 83,
         "fields": {
             "floss_number": 315,
@@ -1079,7 +1079,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 84,
         "fields": {
             "floss_number": 3802,
@@ -1092,7 +1092,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 85,
         "fields": {
             "floss_number": 902,
@@ -1105,7 +1105,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 86,
         "fields": {
             "floss_number": 3743,
@@ -1118,7 +1118,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 87,
         "fields": {
             "floss_number": 3042,
@@ -1131,7 +1131,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 88,
         "fields": {
             "floss_number": 3041,
@@ -1144,7 +1144,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 89,
         "fields": {
             "floss_number": 3740,
@@ -1157,7 +1157,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 90,
         "fields": {
             "floss_number": 3836,
@@ -1170,7 +1170,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 91,
         "fields": {
             "floss_number": 3835,
@@ -1183,7 +1183,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 92,
         "fields": {
             "floss_number": 3834,
@@ -1196,7 +1196,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 93,
         "fields": {
             "floss_number": 154,
@@ -1209,7 +1209,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 94,
         "fields": {
             "floss_number": 211,
@@ -1222,7 +1222,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 95,
         "fields": {
             "floss_number": 210,
@@ -1235,7 +1235,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 96,
         "fields": {
             "floss_number": 209,
@@ -1248,7 +1248,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 97,
         "fields": {
             "floss_number": 208,
@@ -1261,7 +1261,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 98,
         "fields": {
             "floss_number": 3837,
@@ -1274,7 +1274,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 99,
         "fields": {
             "floss_number": 327,
@@ -1287,7 +1287,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 100,
         "fields": {
             "floss_number": 153,
@@ -1300,7 +1300,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 101,
         "fields": {
             "floss_number": 554,
@@ -1313,7 +1313,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 102,
         "fields": {
             "floss_number": 553,
@@ -1326,7 +1326,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 103,
         "fields": {
             "floss_number": 552,
@@ -1339,7 +1339,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 104,
         "fields": {
             "floss_number": 550,
@@ -1352,7 +1352,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 105,
         "fields": {
             "floss_number": 3747,
@@ -1365,7 +1365,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 106,
         "fields": {
             "floss_number": 341,
@@ -1378,7 +1378,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 107,
         "fields": {
             "floss_number": 156,
@@ -1391,7 +1391,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 108,
         "fields": {
             "floss_number": 340,
@@ -1404,7 +1404,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 109,
         "fields": {
             "floss_number": 155,
@@ -1417,7 +1417,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 110,
         "fields": {
             "floss_number": 3746,
@@ -1430,7 +1430,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 111,
         "fields": {
             "floss_number": 333,
@@ -1443,7 +1443,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 112,
         "fields": {
             "floss_number": 157,
@@ -1456,7 +1456,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 113,
         "fields": {
             "floss_number": 794,
@@ -1469,7 +1469,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 114,
         "fields": {
             "floss_number": 793,
@@ -1482,7 +1482,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 115,
         "fields": {
             "floss_number": 3807,
@@ -1495,7 +1495,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 116,
         "fields": {
             "floss_number": 792,
@@ -1508,7 +1508,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 117,
         "fields": {
             "floss_number": 158,
@@ -1521,7 +1521,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 118,
         "fields": {
             "floss_number": 791,
@@ -1534,7 +1534,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 119,
         "fields": {
             "floss_number": 3840,
@@ -1547,7 +1547,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 120,
         "fields": {
             "floss_number": 3839,
@@ -1560,7 +1560,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 121,
         "fields": {
             "floss_number": 3838,
@@ -1573,7 +1573,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 122,
         "fields": {
             "floss_number": 800,
@@ -1586,7 +1586,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 123,
         "fields": {
             "floss_number": 809,
@@ -1599,7 +1599,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 124,
         "fields": {
             "floss_number": 799,
@@ -1612,7 +1612,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 125,
         "fields": {
             "floss_number": 798,
@@ -1625,7 +1625,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 126,
         "fields": {
             "floss_number": 797,
@@ -1638,7 +1638,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 127,
         "fields": {
             "floss_number": 796,
@@ -1651,7 +1651,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 128,
         "fields": {
             "floss_number": 820,
@@ -1664,7 +1664,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 129,
         "fields": {
             "floss_number": 162,
@@ -1677,7 +1677,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 130,
         "fields": {
             "floss_number": 827,
@@ -1690,7 +1690,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 131,
         "fields": {
             "floss_number": 813,
@@ -1703,7 +1703,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 132,
         "fields": {
             "floss_number": 826,
@@ -1716,7 +1716,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 133,
         "fields": {
             "floss_number": 825,
@@ -1729,7 +1729,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 134,
         "fields": {
             "floss_number": 824,
@@ -1742,7 +1742,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 135,
         "fields": {
             "floss_number": 996,
@@ -1755,7 +1755,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 136,
         "fields": {
             "floss_number": 3843,
@@ -1768,7 +1768,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 137,
         "fields": {
             "floss_number": 995,
@@ -1781,7 +1781,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 138,
         "fields": {
             "floss_number": 3846,
@@ -1794,7 +1794,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 139,
         "fields": {
             "floss_number": 3845,
@@ -1807,7 +1807,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 140,
         "fields": {
             "floss_number": 3844,
@@ -1820,7 +1820,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 141,
         "fields": {
             "floss_number": 159,
@@ -1833,7 +1833,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 142,
         "fields": {
             "floss_number": 160,
@@ -1846,7 +1846,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 143,
         "fields": {
             "floss_number": 161,
@@ -1859,7 +1859,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 144,
         "fields": {
             "floss_number": 3756,
@@ -1872,7 +1872,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 145,
         "fields": {
             "floss_number": 775,
@@ -1885,7 +1885,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 146,
         "fields": {
             "floss_number": 3841,
@@ -1898,7 +1898,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 147,
         "fields": {
             "floss_number": 3325,
@@ -1911,7 +1911,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 148,
         "fields": {
             "floss_number": 3755,
@@ -1924,7 +1924,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 149,
         "fields": {
             "floss_number": 334,
@@ -1937,7 +1937,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 150,
         "fields": {
             "floss_number": 322,
@@ -1950,7 +1950,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 151,
         "fields": {
             "floss_number": 312,
@@ -1963,7 +1963,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 152,
         "fields": {
             "floss_number": 803,
@@ -1976,7 +1976,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 153,
         "fields": {
             "floss_number": 336,
@@ -1989,7 +1989,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 154,
         "fields": {
             "floss_number": 823,
@@ -2002,7 +2002,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 155,
         "fields": {
             "floss_number": 939,
@@ -2015,7 +2015,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 156,
         "fields": {
             "floss_number": 3753,
@@ -2028,7 +2028,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 157,
         "fields": {
             "floss_number": 3752,
@@ -2041,7 +2041,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 158,
         "fields": {
             "floss_number": 932,
@@ -2054,7 +2054,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 159,
         "fields": {
             "floss_number": 931,
@@ -2067,7 +2067,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 160,
         "fields": {
             "floss_number": 930,
@@ -2080,7 +2080,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 161,
         "fields": {
             "floss_number": 3750,
@@ -2093,7 +2093,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 162,
         "fields": {
             "floss_number": 828,
@@ -2106,7 +2106,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 163,
         "fields": {
             "floss_number": 3761,
@@ -2119,7 +2119,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 164,
         "fields": {
             "floss_number": 519,
@@ -2132,7 +2132,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 165,
         "fields": {
             "floss_number": 518,
@@ -2145,7 +2145,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 166,
         "fields": {
             "floss_number": 3760,
@@ -2158,7 +2158,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 167,
         "fields": {
             "floss_number": 517,
@@ -2171,7 +2171,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 168,
         "fields": {
             "floss_number": 3842,
@@ -2184,7 +2184,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 169,
         "fields": {
             "floss_number": 311,
@@ -2197,7 +2197,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 170,
         "fields": {
             "floss_number": 747,
@@ -2210,7 +2210,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 171,
         "fields": {
             "floss_number": 3766,
@@ -2223,7 +2223,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 172,
         "fields": {
             "floss_number": 807,
@@ -2236,7 +2236,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 173,
         "fields": {
             "floss_number": 806,
@@ -2249,7 +2249,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 174,
         "fields": {
             "floss_number": 3765,
@@ -2262,7 +2262,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 175,
         "fields": {
             "floss_number": 3811,
@@ -2275,7 +2275,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 176 ,
         "fields": {
             "floss_number": 598,
@@ -2288,7 +2288,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 177,
         "fields": {
             "floss_number": 597,
@@ -2301,7 +2301,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 178,
         "fields": {
             "floss_number": 3810,
@@ -2314,7 +2314,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 179 ,
         "fields": {
             "floss_number": 3809,
@@ -2327,7 +2327,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 180,
         "fields": {
             "floss_number": 3808,
@@ -2340,7 +2340,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 181 ,
         "fields": {
             "floss_number": 928,
@@ -2353,7 +2353,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 182,
         "fields": {
             "floss_number": 927,
@@ -2366,7 +2366,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 183,
         "fields": {
             "floss_number": 926,
@@ -2379,7 +2379,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 184,
         "fields": {
             "floss_number": 3768,
@@ -2392,7 +2392,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 185,
         "fields": {
             "floss_number": 924,
@@ -2405,7 +2405,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 186,
         "fields": {
             "floss_number": 3849,
@@ -2418,7 +2418,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 187,
         "fields": {
             "floss_number": 3848,
@@ -2431,7 +2431,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 188,
         "fields": {
             "floss_number": 3847,
@@ -2444,7 +2444,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 189,
         "fields": {
             "floss_number": 964,
@@ -2457,7 +2457,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 190,
         "fields": {
             "floss_number": 959,
@@ -2470,7 +2470,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 191,
         "fields": {
             "floss_number": 958,
@@ -2483,7 +2483,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 192,
         "fields": {
             "floss_number": 3812,
@@ -2496,7 +2496,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 193,
         "fields": {
             "floss_number": 3851,
@@ -2509,7 +2509,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 194,
         "fields": {
             "floss_number": 943,
@@ -2522,7 +2522,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 195,
         "fields": {
             "floss_number": 3850,
@@ -2535,7 +2535,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 196,
         "fields": {
             "floss_number": 993,
@@ -2548,7 +2548,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 197,
         "fields": {
             "floss_number": 992,
@@ -2561,7 +2561,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 198,
         "fields": {
             "floss_number": 3814,
@@ -2574,7 +2574,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 199,
         "fields": {
             "floss_number": 991,
@@ -2587,7 +2587,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 200,
         "fields": {
             "floss_number": 966,
@@ -2600,7 +2600,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 201,
         "fields": {
             "floss_number": 564,
@@ -2613,7 +2613,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 202,
         "fields": {
             "floss_number": 563,
@@ -2626,7 +2626,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 203,
         "fields": {
             "floss_number": 562,
@@ -2639,7 +2639,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 204,
         "fields": {
             "floss_number": 505,
@@ -2652,7 +2652,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 205,
         "fields": {
             "floss_number": 3817,
@@ -2665,7 +2665,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 206,
         "fields": {
             "floss_number": 3816,
@@ -2678,7 +2678,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 207,
         "fields": {
             "floss_number": 163,
@@ -2691,7 +2691,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 208,
         "fields": {
             "floss_number": 3815,
@@ -2704,7 +2704,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 209,
         "fields": {
             "floss_number": 561,
@@ -2717,7 +2717,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 210,
         "fields": {
             "floss_number": 504,
@@ -2730,7 +2730,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 211,
         "fields": {
             "floss_number": 3813,
@@ -2743,7 +2743,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 212,
         "fields": {
             "floss_number": 503,
@@ -2756,7 +2756,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 213,
         "fields": {
             "floss_number": 502,
@@ -2769,7 +2769,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 214,
         "fields": {
             "floss_number": 501,
@@ -2782,7 +2782,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 215,
         "fields": {
             "floss_number": 500,
@@ -2795,7 +2795,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 216,
         "fields": {
             "floss_number": 955,
@@ -2808,7 +2808,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 217,
         "fields": {
             "floss_number": 954,
@@ -2821,7 +2821,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 218,
         "fields": {
             "floss_number": 913,
@@ -2834,7 +2834,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 219,
         "fields": {
             "floss_number": 912,
@@ -2847,7 +2847,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 220,
         "fields": {
             "floss_number": 911,
@@ -2860,7 +2860,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 221,
         "fields": {
             "floss_number": 910,
@@ -2873,7 +2873,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 222,
         "fields": {
             "floss_number": 909,
@@ -2886,7 +2886,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 223,
         "fields": {
             "floss_number": 3818,
@@ -2899,7 +2899,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 224,
         "fields": {
             "floss_number": 369,
@@ -2912,7 +2912,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 225,
         "fields": {
             "floss_number": 368,
@@ -2925,7 +2925,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 226,
         "fields": {
             "floss_number": 320,
@@ -2938,7 +2938,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 227,
         "fields": {
             "floss_number": 367,
@@ -2951,7 +2951,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 228,
         "fields": {
             "floss_number": 319,
@@ -2964,7 +2964,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 229,
         "fields": {
             "floss_number": 890,
@@ -2977,7 +2977,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 230,
         "fields": {
             "floss_number": 164,
@@ -2990,7 +2990,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 231,
         "fields": {
             "floss_number": 989,
@@ -3003,7 +3003,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 232,
         "fields": {
             "floss_number": 988,
@@ -3016,7 +3016,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 233,
         "fields": {
             "floss_number": 987,
@@ -3029,7 +3029,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 234,
         "fields": {
             "floss_number": 986,
@@ -3042,7 +3042,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 235,
         "fields": {
             "floss_number": 772,
@@ -3055,7 +3055,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 236,
         "fields": {
             "floss_number": 3348,
@@ -3068,7 +3068,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 237,
         "fields": {
             "floss_number": 3347,
@@ -3081,7 +3081,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 238,
         "fields": {
             "floss_number": 3346,
@@ -3094,7 +3094,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 239,
         "fields": {
             "floss_number": 3345,
@@ -3107,7 +3107,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 240,
         "fields": {
             "floss_number": 895,
@@ -3120,7 +3120,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 241,
         "fields": {
             "floss_number": 704,
@@ -3133,7 +3133,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 242,
         "fields": {
             "floss_number": 703,
@@ -3146,7 +3146,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 243,
         "fields": {
             "floss_number": 702,
@@ -3159,7 +3159,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 244,
         "fields": {
             "floss_number": 701,
@@ -3172,7 +3172,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 245,
         "fields": {
             "floss_number": 700,
@@ -3185,7 +3185,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 246,
         "fields": {
             "floss_number": 699,
@@ -3198,7 +3198,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 247,
         "fields": {
             "floss_number": 907,
@@ -3211,7 +3211,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 248,
         "fields": {
             "floss_number": 906,
@@ -3224,7 +3224,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 249,
         "fields": {
             "floss_number": 905,
@@ -3237,7 +3237,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 250,
         "fields": {
             "floss_number": 904,
@@ -3250,7 +3250,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 251,
         "fields": {
             "floss_number": 472,
@@ -3263,7 +3263,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 252,
         "fields": {
             "floss_number": 471,
@@ -3276,7 +3276,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 253,
         "fields": {
             "floss_number": 470,
@@ -3289,7 +3289,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 254,
         "fields": {
             "floss_number": 469,
@@ -3302,7 +3302,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 255,
         "fields": {
             "floss_number": 937,
@@ -3315,7 +3315,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 256,
         "fields": {
             "floss_number": 936,
@@ -3328,7 +3328,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 257,
         "fields": {
             "floss_number": 935,
@@ -3341,7 +3341,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 258,
         "fields": {
             "floss_number": 934,
@@ -3354,7 +3354,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 259,
         "fields": {
             "floss_number": 523,
@@ -3367,7 +3367,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 260,
         "fields": {
             "floss_number": 3053,
@@ -3380,7 +3380,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 261,
         "fields": {
             "floss_number": 3052,
@@ -3393,7 +3393,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 262,
         "fields": {
             "floss_number": 3051,
@@ -3406,7 +3406,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 263,
         "fields": {
             "floss_number": 524,
@@ -3419,7 +3419,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 264,
         "fields": {
             "floss_number": 522,
@@ -3432,7 +3432,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 265,
         "fields": {
             "floss_number": 520,
@@ -3445,7 +3445,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 266,
         "fields": {
             "floss_number": 3364,
@@ -3458,7 +3458,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 267,
         "fields": {
             "floss_number": 3363,
@@ -3471,7 +3471,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 268,
         "fields": {
             "floss_number": 3362,
@@ -3484,7 +3484,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 269,
         "fields": {
             "floss_number": 165,
@@ -3497,7 +3497,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 270,
         "fields": {
             "floss_number": 3819,
@@ -3510,7 +3510,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 271,
         "fields": {
             "floss_number": 166,
@@ -3523,7 +3523,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 272,
         "fields": {
             "floss_number": 581,
@@ -3536,7 +3536,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 273,
         "fields": {
             "floss_number": 580,
@@ -3549,7 +3549,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 274,
         "fields": {
             "floss_number": 734,
@@ -3562,7 +3562,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 275,
         "fields": {
             "floss_number": 733,
@@ -3575,7 +3575,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 276,
         "fields": {
             "floss_number": 732,
@@ -3588,7 +3588,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 277,
         "fields": {
             "floss_number": 731,
@@ -3601,7 +3601,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 278,
         "fields": {
             "floss_number": 730,
@@ -3614,7 +3614,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 279,
         "fields": {
             "floss_number": 3013,
@@ -3627,7 +3627,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 280,
         "fields": {
             "floss_number": 3012,
@@ -3640,7 +3640,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 281,
         "fields": {
             "floss_number": 3011,
@@ -3653,7 +3653,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 282,
         "fields": {
             "floss_number": 372,
@@ -3666,7 +3666,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 283,
         "fields": {
             "floss_number": 371,
@@ -3679,7 +3679,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 284,
         "fields": {
             "floss_number": 370,
@@ -3692,7 +3692,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 285,
         "fields": {
             "floss_number": 834,
@@ -3705,7 +3705,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 286,
         "fields": {
             "floss_number": 833,
@@ -3718,7 +3718,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 287,
         "fields": {
             "floss_number": 832,
@@ -3731,7 +3731,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 288,
         "fields": {
             "floss_number": 831,
@@ -3744,7 +3744,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 289,
         "fields": {
             "floss_number": 830,
@@ -3757,7 +3757,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 290,
         "fields": {
             "floss_number": 829,
@@ -3770,7 +3770,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 291,
         "fields": {
             "floss_number": 613,
@@ -3783,7 +3783,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 292,
         "fields": {
             "floss_number": 612,
@@ -3796,7 +3796,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 293,
         "fields": {
             "floss_number": 611,
@@ -3809,7 +3809,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 294,
         "fields": {
             "floss_number": 610,
@@ -3822,7 +3822,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 295,
         "fields": {
             "floss_number": 3047,
@@ -3835,7 +3835,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 296,
         "fields": {
             "floss_number": 3046,
@@ -3848,7 +3848,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 297,
         "fields": {
             "floss_number": 3045,
@@ -3861,7 +3861,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 298,
         "fields": {
             "floss_number": 167,
@@ -3874,7 +3874,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 299,
         "fields": {
             "floss_number": 746,
@@ -3887,7 +3887,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 300,
         "fields": {
             "floss_number": 677,
@@ -3900,7 +3900,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 301,
         "fields": {
             "floss_number": 422,
@@ -3913,7 +3913,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 302,
         "fields": {
             "floss_number": 3828,
@@ -3926,7 +3926,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 303,
         "fields": {
             "floss_number": 420,
@@ -3939,7 +3939,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 304,
         "fields": {
             "floss_number": 869,
@@ -3952,7 +3952,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 305,
         "fields": {
             "floss_number": 728,
@@ -3965,7 +3965,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 306,
         "fields": {
             "floss_number": 783,
@@ -3978,7 +3978,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 307,
         "fields": {
             "floss_number": 782,
@@ -3991,7 +3991,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 308,
         "fields": {
             "floss_number": 781,
@@ -4004,7 +4004,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 309,
         "fields": {
             "floss_number": 780,
@@ -4017,7 +4017,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 310,
         "fields": {
             "floss_number": 676,
@@ -4030,7 +4030,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 311,
         "fields": {
             "floss_number": 729,
@@ -4043,7 +4043,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 312,
         "fields": {
             "floss_number": 680,
@@ -4056,7 +4056,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 313,
         "fields": {
             "floss_number": 3829,
@@ -4069,7 +4069,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 314,
         "fields": {
             "floss_number": 3822,
@@ -4082,7 +4082,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 315,
         "fields": {
             "floss_number": 3821,
@@ -4095,7 +4095,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 316,
         "fields": {
             "floss_number": 3820,
@@ -4108,7 +4108,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 317,
         "fields": {
             "floss_number": 3852,
@@ -4121,7 +4121,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 318,
         "fields": {
             "floss_number": 445,
@@ -4134,7 +4134,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 319,
         "fields": {
             "floss_number": 307,
@@ -4147,7 +4147,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 320,
         "fields": {
             "floss_number": 973,
@@ -4160,7 +4160,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 321,
         "fields": {
             "floss_number": 444,
@@ -4173,7 +4173,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 322,
         "fields": {
             "floss_number": 3078,
@@ -4186,7 +4186,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 323,
         "fields": {
             "floss_number": 727,
@@ -4199,7 +4199,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 324,
         "fields": {
             "floss_number": 726,
@@ -4212,7 +4212,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 325,
         "fields": {
             "floss_number": 725,
@@ -4225,7 +4225,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 326,
         "fields": {
             "floss_number": 972,
@@ -4238,7 +4238,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 327,
         "fields": {
             "floss_number": 745,
@@ -4251,7 +4251,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 328,
         "fields": {
             "floss_number": 744,
@@ -4264,7 +4264,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 329,
         "fields": {
             "floss_number": 743,
@@ -4277,7 +4277,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 330,
         "fields": {
             "floss_number": 742,
@@ -4290,7 +4290,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 331,
         "fields": {
             "floss_number": 741,
@@ -4303,7 +4303,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 332,
         "fields": {
             "floss_number": 740,
@@ -4316,7 +4316,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 333,
         "fields": {
             "floss_number": 970,
@@ -4329,7 +4329,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 334,
         "fields": {
             "floss_number": 971,
@@ -4342,7 +4342,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 335,
         "fields": {
             "floss_number": 947,
@@ -4355,7 +4355,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 336,
         "fields": {
             "floss_number": 946,
@@ -4368,7 +4368,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 337,
         "fields": {
             "floss_number": 900,
@@ -4381,7 +4381,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 338,
         "fields": {
             "floss_number": 967,
@@ -4394,7 +4394,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 339,
         "fields": {
             "floss_number": 3824,
@@ -4407,7 +4407,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 340,
         "fields": {
             "floss_number": 3341,
@@ -4420,7 +4420,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 341,
         "fields": {
             "floss_number": 3340,
@@ -4433,7 +4433,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 342,
         "fields": {
             "floss_number": 608,
@@ -4446,7 +4446,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 343,
         "fields": {
             "floss_number": 606,
@@ -4459,7 +4459,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 344,
         "fields": {
             "floss_number": 951,
@@ -4472,7 +4472,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 345,
         "fields": {
             "floss_number": 3856,
@@ -4485,7 +4485,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 346,
         "fields": {
             "floss_number": 722,
@@ -4498,7 +4498,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 347,
         "fields": {
             "floss_number": 721,
@@ -4511,7 +4511,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 348,
         "fields": {
             "floss_number": 720,
@@ -4524,7 +4524,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 349,
         "fields": {
             "floss_number": 3825,
@@ -4537,7 +4537,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 350,
         "fields": {
             "floss_number": 922,
@@ -4550,7 +4550,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 351,
         "fields": {
             "floss_number": 921,
@@ -4563,7 +4563,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 352,
         "fields": {
             "floss_number": 920,
@@ -4576,7 +4576,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 353,
         "fields": {
             "floss_number": 919,
@@ -4589,7 +4589,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 354,
         "fields": {
             "floss_number": 918,
@@ -4602,7 +4602,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 355,
         "fields": {
             "floss_number": 3770,
@@ -4615,7 +4615,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 356,
         "fields": {
             "floss_number": 945,
@@ -4628,7 +4628,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 357,
         "fields": {
             "floss_number": 402,
@@ -4641,7 +4641,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 358,
         "fields": {
             "floss_number": 3776,
@@ -4654,7 +4654,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 359,
         "fields": {
             "floss_number": 301,
@@ -4667,7 +4667,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 360,
         "fields": {
             "floss_number": 400,
@@ -4680,7 +4680,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 361,
         "fields": {
             "floss_number": 300,
@@ -4693,7 +4693,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 362,
         "fields": {
             "floss_number": 3823,
@@ -4706,7 +4706,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 363,
         "fields": {
             "floss_number": 3855,
@@ -4719,7 +4719,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 364,
         "fields": {
             "floss_number": 3854,
@@ -4732,7 +4732,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 365,
         "fields": {
             "floss_number": 3853,
@@ -4745,7 +4745,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 366,
         "fields": {
             "floss_number": 3827,
@@ -4758,7 +4758,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 367,
         "fields": {
             "floss_number": 977,
@@ -4771,7 +4771,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 368,
         "fields": {
             "floss_number": 976,
@@ -4784,7 +4784,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 369,
         "fields": {
             "floss_number": 3826,
@@ -4797,7 +4797,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 370,
         "fields": {
             "floss_number": 975,
@@ -4810,7 +4810,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 371,
         "fields": {
             "floss_number": 948,
@@ -4823,7 +4823,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 372,
         "fields": {
             "floss_number": 754,
@@ -4836,7 +4836,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 373,
         "fields": {
             "floss_number": 3771,
@@ -4849,7 +4849,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 374,
         "fields": {
             "floss_number": 758,
@@ -4862,7 +4862,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 375,
         "fields": {
             "floss_number": 3778,
@@ -4875,7 +4875,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 376,
         "fields": {
             "floss_number": 356,
@@ -4888,7 +4888,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 377,
         "fields": {
             "floss_number": 3830,
@@ -4901,7 +4901,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 378,
         "fields": {
             "floss_number": 355,
@@ -4914,7 +4914,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 379,
         "fields": {
             "floss_number": 3777,
@@ -4927,7 +4927,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 380,
         "fields": {
             "floss_number": 3779,
@@ -4940,7 +4940,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 381,
         "fields": {
             "floss_number": 3859,
@@ -4953,7 +4953,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 382,
         "fields": {
             "floss_number": 3858,
@@ -4966,7 +4966,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 383,
         "fields": {
             "floss_number": 3857,
@@ -4979,7 +4979,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 384,
         "fields": {
             "floss_number": 3774,
@@ -4992,7 +4992,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 385,
         "fields": {
             "floss_number": 950,
@@ -5005,7 +5005,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 386,
         "fields": {
             "floss_number": 3064,
@@ -5018,7 +5018,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 387,
         "fields": {
             "floss_number": 407,
@@ -5031,7 +5031,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 388,
         "fields": {
             "floss_number": 3773,
@@ -5044,7 +5044,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 389,
         "fields": {
             "floss_number": 3772,
@@ -5057,7 +5057,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 390,
         "fields": {
             "floss_number": 632,
@@ -5070,7 +5070,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 391,
         "fields": {
             "floss_number": 453,
@@ -5083,7 +5083,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 392,
         "fields": {
             "floss_number": 452,
@@ -5096,7 +5096,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 393,
         "fields": {
             "floss_number": 451,
@@ -5109,7 +5109,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 394,
         "fields": {
             "floss_number": 3861,
@@ -5122,7 +5122,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 395,
         "fields": {
             "floss_number": 3860,
@@ -5135,7 +5135,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 396,
         "fields": {
             "floss_number": 779,
@@ -5148,7 +5148,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 397,
         "fields": {
             "floss_number": 712,
@@ -5161,7 +5161,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 398,
         "fields": {
             "floss_number": 739,
@@ -5174,7 +5174,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 399,
         "fields": {
             "floss_number": 738,
@@ -5187,7 +5187,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 400,
         "fields": {
             "floss_number": 437,
@@ -5200,7 +5200,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 401,
         "fields": {
             "floss_number": 436,
@@ -5213,7 +5213,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 402,
         "fields": {
             "floss_number": 435,
@@ -5226,7 +5226,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 403,
         "fields": {
             "floss_number": 434,
@@ -5239,7 +5239,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 404,
         "fields": {
             "floss_number": 433,
@@ -5252,7 +5252,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 405,
         "fields": {
             "floss_number": 801,
@@ -5265,7 +5265,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 406,
         "fields": {
             "floss_number": 898,
@@ -5278,7 +5278,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 407,
         "fields": {
             "floss_number": 938,
@@ -5291,7 +5291,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 408,
         "fields": {
             "floss_number": 3371,
@@ -5299,12 +5299,12 @@
       "red": 30,
       "green": 17,
       "blue": 8,
-      "rgb_code": null,
+      "rgb_code": "301708",
       "row": "row 17-18"
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 409,
         "fields": {
             "floss_number": 543,
@@ -5317,7 +5317,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 410,
         "fields": {
             "floss_number": 3864,
@@ -5330,7 +5330,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 411,
         "fields": {
             "floss_number": 3863,
@@ -5343,7 +5343,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 412,
         "fields": {
             "floss_number": 3862,
@@ -5356,7 +5356,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 413,
         "fields": {
             "floss_number": 3031,
@@ -5369,10 +5369,10 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 414,
         "fields": {
-            "floss_number": "B5200",
+            "floss_number": 5200,
       "description": "Snow White",
       "red": 255,
       "green": 255,
@@ -5382,20 +5382,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
-        "pk": 415,
-        "fields": {
-            "floss_number": "White",
-      "description": "White",
-      "red": 252,
-      "green": 251,
-      "blue": 248,
-      "rgb_code": "FCFBF8",
-      "row": "row 18-02"
-        }
-    },
-    {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 416,
         "fields": {
             "floss_number": 3865,
@@ -5408,20 +5395,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
-        "pk": 417,
-        "fields": {
-            "floss_number": "Ecru",
-      "description": "Ecru",
-      "red": 240,
-      "green": 234,
-      "blue": 218,
-      "rgb_code": "F0EADA",
-      "row": "row 18-04"
-        }
-    },
-    {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 418,
         "fields": {
             "floss_number": 822,
@@ -5434,7 +5408,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 419,
         "fields": {
             "floss_number": 644,
@@ -5447,7 +5421,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 420,
         "fields": {
             "floss_number": 642,
@@ -5460,7 +5434,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 421,
         "fields": {
             "floss_number": 640,
@@ -5473,7 +5447,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 422,
         "fields": {
             "floss_number": 3787,
@@ -5486,7 +5460,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 423,
         "fields": {
             "floss_number": 3021,
@@ -5499,7 +5473,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 424,
         "fields": {
             "floss_number": 3024,
@@ -5512,7 +5486,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 425,
         "fields": {
             "floss_number": 3023,
@@ -5525,7 +5499,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 426,
         "fields": {
             "floss_number": 3022,
@@ -5533,12 +5507,12 @@
       "red": 142,
       "green": 144,
       "blue": 120,
-      "rgb_code": null,
+      "rgb_code": 8E9078,
       "row": "row 18-13"
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 427,
         "fields": {
             "floss_number": 535,
@@ -5551,7 +5525,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 428,
         "fields": {
             "floss_number": 3033,
@@ -5564,7 +5538,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 429,
         "fields": {
             "floss_number": 3782,
@@ -5577,7 +5551,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 430,
         "fields": {
             "floss_number": 3032,
@@ -5590,7 +5564,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 431,
         "fields": {
             "floss_number": 3790,
@@ -5603,7 +5577,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 432,
         "fields": {
             "floss_number": 3781,
@@ -5616,7 +5590,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 433,
         "fields": {
             "floss_number": 3866,
@@ -5629,7 +5603,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 434,
         "fields": {
             "floss_number": 842,
@@ -5642,7 +5616,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 435,
         "fields": {
             "floss_number": 841,
@@ -5655,7 +5629,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 436,
         "fields": {
             "floss_number": 840,
@@ -5668,7 +5642,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 437,
         "fields": {
             "floss_number": 839,
@@ -5681,7 +5655,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 438,
         "fields": {
             "floss_number": 838,
@@ -5694,7 +5668,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 439,
         "fields": {
             "floss_number": 3072,
@@ -5707,7 +5681,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 440,
         "fields": {
             "floss_number": 648,
@@ -5720,7 +5694,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 441,
         "fields": {
             "floss_number": 647,
@@ -5733,7 +5707,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 442,
         "fields": {
             "floss_number": 646,
@@ -5746,7 +5720,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 443,
         "fields": {
             "floss_number": 645,
@@ -5759,7 +5733,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 444,
         "fields": {
             "floss_number": 844,
@@ -5772,7 +5746,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 445,
         "fields": {
             "floss_number": 762,
@@ -5785,7 +5759,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 446,
         "fields": {
             "floss_number": 415,
@@ -5798,7 +5772,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 447,
         "fields": {
             "floss_number": 318,
@@ -5811,7 +5785,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 448,
         "fields": {
             "floss_number": 414,
@@ -5824,7 +5798,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 449,
         "fields": {
             "floss_number": 168,
@@ -5837,7 +5811,7 @@
         }
     },
     {
-       "model": "crossingpathsapi.floss_color",
+       "model": "crossingpathsapi.flosscolor",
         "pk": 450,
         "fields": {
             "floss_number": 169,
@@ -5850,7 +5824,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 451,
         "fields": {
             "floss_number": 317,
@@ -5863,7 +5837,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 452,
         "fields": {
             "floss_number": 413,
@@ -5876,7 +5850,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 453,
         "fields": {
             "floss_number": 3799,
@@ -5889,7 +5863,7 @@
         }
     },
     {
-        "model": "crossingpathsapi.floss_color",
+        "model": "crossingpathsapi.flosscolor",
         "pk": 454,
         "fields": {
             "floss_number": 310,

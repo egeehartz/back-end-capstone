@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from crossingpathsapi.views.flosscolor import FlossColors
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
@@ -28,6 +29,7 @@ router.register(r'currentuser', CurrentUser, 'crossinguser')
 router.register(r'users', CrossingUsers, 'crossinguser')
 router.register(r'designs', Designs, 'design')
 router.register(r'follows', Follows, 'follow')
+router.register(r'colors', FlossColors, 'colors')
 
 
 urlpatterns = [
